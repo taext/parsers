@@ -1,4 +1,16 @@
+#!/home/dd/anaconda3/bin/python
 import requests, re, collections, itertools
+
+      # # # # # # # # # # # # # # # # # #
+    #                                     # 
+    #        Scraper module for           #
+    #              thehiddenbay.com       #
+    #                                     #
+    #   by d@v1d.dk                       # 
+    #      May 26th '19                   #
+    #                                     #
+      # # # # # # # # # # # # # # # # # #
+
 
 def run(search_term, count=30):
     """Takes thehiddenbay.com torrent search, 
@@ -34,7 +46,7 @@ def run(search_term, count=30):
             torrent_page = torrent_match[i]
             temp_date = upload_date_match[i]
             torrent_date = temp_date.replace('&nbsp;',' ')[:-1]
-            temp_size = size_match[i].replace('&nbsp;',' ')[:-1]
+            temp_size = size_match[i].replace('&nbsp;',' ')
             torrent_size = temp_size.replace('&nbsp;',' ')[:-1]
             torrent_category = category_match[i]
             Torrent = collections.namedtuple('Torrent', ' title magnet_link torrent_page_link torrent_date torrent_size torrent_category')
@@ -56,6 +68,17 @@ def run(search_term, count=30):
         del torrent_dict[key]
 
     return(truncated_list, torrent_dict)
+
+
+def print_please(obj):
+    """Print torrent information to screen."""
+
+    print(obj.title) 
+    print(obj.torrent_size) 
+    print(obj.torrent_category) 
+    print(obj.torrent_date) 
+    print(obj.torrent_page_link)
+    print(obj.magnet_link)
 
 
 def step(url):
