@@ -12,4 +12,4 @@
 
 <br>
 
-(Note that all of the above can also be used as Python modules)
+Note that all of the above can be used both as CLI programs and Python modules.
