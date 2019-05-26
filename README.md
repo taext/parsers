@@ -9,3 +9,5 @@
 **[youtube_parser](https://github.com/taext/parsers/tree/master/youtube_parser)** get YouTube video search result URLs in-line
 
 **[dr_m3u8](https://github.com/taext/parsers/tree/master/dr_m3u8)** get .m3u8 streaming link of dr.dk tv program
+
+All of the above can also be used as Python modules.
