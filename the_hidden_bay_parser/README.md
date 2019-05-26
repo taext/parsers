@@ -1,4 +1,4 @@
-# Linux CLI syntax
+## Linux CLI syntax
 
     $ bay "billions" 1
     
