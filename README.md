@@ -12,4 +12,4 @@
 
 <br>
 
-Note that all of the above can be used both as command-line programs and as Python module imports.
+Note that all of the above can be used both as command-line programs and Python modules.
