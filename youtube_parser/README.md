@@ -1,4 +1,4 @@
-# Linux CLI syntax
+## Linux CLI syntax
 
 $ yn powershell tutorial 2
 
