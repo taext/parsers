@@ -1,6 +1,6 @@
 # Linux CLI syntax
 
-$ bay "billions" 1
+    $ bay "billions" 1
     
       Billions.S04E09.WEB.H264-MEMENTO[ettv]
       280.9 MiB
