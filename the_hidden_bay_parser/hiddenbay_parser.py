@@ -13,9 +13,8 @@ import requests, re, collections, itertools
 
 
 def run(search_term, count=30):
-    """Takes thehiddenbay.com torrent search, 
-    returns 30 item result list and dictionary. 
-    Also includes unused page stepper function."""
+    """Takes thehiddenbay.com torrent search string, 
+    optional results count, returns result list and dictionary."""
 
     example_url = 'https://thehiddenbay.com/search/killing%20eve/1/99/0'
     new_search_term = search_term.replace(' ', '%20')
