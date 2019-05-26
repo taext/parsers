@@ -2,7 +2,7 @@
 
 **[bing_parser](https://github.com/taext/parsers/tree/master/bing_parser)** get Bing search result URLs in-line
 
-**[dr_m3u8](https://github.com/taext/parsers/tree/master/dr_m3u8)** get .m3u8 streaming link for a dr.dk tv program
+**[dr_m3u8](https://github.com/taext/parsers/tree/master/dr_m3u8)** get .m3u8 streaming link for dr.dk tv program
 
 **[libgen_parser](https://github.com/taext/parsers/tree/master/libgen_parser)** get Library Genesis search results in-line
 
