@@ -1,4 +1,4 @@
-# Overview
+
 
 **[bing_parser](https://github.com/taext/parsers/tree/master/bing_parser)** get Bing search result URLs in-line
 
