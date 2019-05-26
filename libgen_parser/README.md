@@ -1,4 +1,4 @@
-# Linux CLI syntax
+## Linux CLI syntax
 
 $ lib python introduction 2
 
