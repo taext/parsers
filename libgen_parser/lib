@@ -6,8 +6,8 @@ import sys, requests, re, lg_stepper
 
 def search_libgen(args, count=1):
     
-    # NB: CHECKS FOR OVERRIDDING TRAILING INTEGER VALUE count
-    # IN SEARCH TERMS
+    # NB: CHECKS FOR TRAILING INTEGER VALUE
+    # OVERRIDDING count IN SEARCH TERMS args
 
     m = re.search('[\s\'](\d{1,2})[\s\']', args)
     if m:
