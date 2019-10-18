@@ -11,7 +11,7 @@ $ yn powershell tutorial 2
 
     import yn
     
-We use a trailing result count count in-line:
+We can use the in-line trailing result count (2-99):
     
     yn.main("powershell tutorial 2")
     
