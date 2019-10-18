@@ -7,7 +7,7 @@ $ yn powershell tutorial 2
 
 <br>
 
-## Python module use
+## Python module
 
     import yn
     
