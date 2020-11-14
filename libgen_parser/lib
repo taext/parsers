@@ -1,6 +1,23 @@
 #!/home/dd/anaconda3/bin/python
 # lib - LibGen - search and parse gen.lib.rus.ec - v0.7 (November 28th 2017)
-# What's New: fix size unit bug
+
+
+"""
+
+888 d8b 888      
+888 Y8P 888      
+888     888      
+888 888 88888b.  
+888 888 888 "88b 
+888 888 888  888 
+888 888 888 d88P 
+888 888 88888P"  
+         v0.7   
+         
+"""                 
+
+# What's New: add ASCII art
+                 
 
 import sys, requests, re, lg_stepper
 
